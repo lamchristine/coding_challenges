@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Maya Healthcare </title>
+
+    <!-- STYLE SHEETS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles/compiled/sass.css">
+  </head>
+
+  <body>
+    <div class="row">
+      <!--side navbar-->
+      <nav class="main-nav">
+        <div class="sidebar-nav">
+          <div class="navbar navbar-default">
+            <ul class="nav navbar-nav">
+              <li><a href="#"><i class="fa fa-bars fa-fw fa-lg" aria-hidden="true"></i></a></li>
+              <li><a href="#"><i class="fa fa-home fa-fw fa-lg" aria-hidden="true"></i></a></li>
+              <li><a href="#"><i class="fa fa-comments fa-fw fa-lg" aria-hidden="true"></i></a></li>
+              <li class="active"><a href="#"><i class="fa fa-user fa-fw fa-lg" aria-hidden="true"></i></a></li>
+              <li><a href="#"><i class="fa fa-calendar-o fa-fw fa-lg" aria-hidden="true"></i></a></li>
+              <li><a href="#"><i class="fa fa-file-text-o fa-fw fa-lg" aria-hidden="true"></i></a></li>
+              <li><a href="#"><i class="fa fa-flag fa-fw fa-lg" aria-hidden="true"></i></a></li>
+              <li><a href="#"><i class="fa fa-gear fa-fw fa-lg" aria-hidden="true"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!--side sub-navbar-->
+      <nav class="sub-nav">
+        <div class="container-fluid">
+          <div class="sidebar-nav">
+            <div class="navbar navbar-default">
+              <ul class="nav navbar-nav">
+                <li>Alan Smith</li>
+                <li><button type="button" class="button">PENDING - DAY 1 of 5</button></li>
+                <li><a href="#"><p class="active"><i class="fa fa-bar-chart fa-fw fa-lg" aria-hidden="true"></i>Overview</p></a></li>
+                <li><a href="#"><p><i class="fa fa-calendar-check-o fa-fw fa-lg" aria-hidden="true"></i>Schedule</p></a></li>
+                <li><a href="#"><p><i class="fa fa-file-archive-o fa-fw fa-lg" aria-hidden="true"></i>Records</p></a></li>
+                <li><a href="#"><p><i class="fa fa-folder fa-fw fa-lg" aria-hidden="true"></i>Reports</p></a></li>
+                <li><a href="#"><p><i class="fa fa-info-circle fa-fw fa-lg" aria-hidden="true"></i>Profile</p></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!--main information-->
+      <main role="main">
+        <div class="row header">
+          <h6>Patient Overview <i class="fa fa-gear fa-lg pull-xs-right" aria-hidden="true"></i></h6>
+        </div>
+        <div class="wrapper">
+          <!--patient info section-->
+          <section class="card-deck-wrapper">
+            <div class="card-deck">
+              <div class="card">
+                <div class="card-block">
+                  <p class="card-title"><b>WEIGHT</b></p>
+                  <p class="card-text">6/8 - 7/3/15</p>
+                  <p class="card-text">**insert image **</p>
+                </div>
+              </div>
+              <div class="card diagnosis">
+                <div class="card-block">
+                  <p class="card-title"><b>DIAGNOSIS & ASSISTIVE</b></p>
+                  <i class="fa fa-wheelchair fa-3x pull-xs-left light-purple" aria-hidden="true"></i><p class="card-text">Multiple Sclerosis </br> Jun 28, 2012</p>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-block">
+                  <p class="card-title"><b>INSURANCE & ID#</b></p>
+                  <p class="card-text">Medicare - 000-00-0000A</p>
+                  <p class="card-title date-of-birth"><b>DATE OF BIRTH</b></p>
+                  <p class="card-text">Jan 15, 1953 (63)</p>
+                </div>
+              </div>
+              <div class="card contact">
+                <div class="card-block">
+                  <p class="card-title"><b>CONTACT</b></p>
+                  <p class="card-text phone-num">555.515.5454</p>
+                  <p class="card-text">5931 W Vegas Dr, </br> Las Vegas, NV 89108</p>
+                </div>
+              </div>
+            </div>
+          </section>
+          <div class="row">
+            <div class="col-sm-7">
+              <!-- patient current week activity section-->
+              <section class="current-week">
+                <div class="row">
+                  <div class="card">
+                    <div class="card-block">
+                      <header>
+                        <h6>This Week <span class="pull-xs-right purple"><span class="grey">|</span><i class="fa fa-tags fa-fw" aria-hidden="true"></i>13<span class="grey">|</span><i class="fa fa-home fa-fw" aria-hidden="true"></i>1
+                          <span class="grey">|</span><i class="fa fa-share-alt fa-rotate-270 fa-fw" aria-hidden="true"></i>1<span class="grey">|</span><i class="fa fa-plus fa-fw" aria-hidden="true"></i></span></h6>
+                      </header>
+                    </div>
+                    <div class="card-block content-wrapper">
+                      <p class="date">TODAY</p>
+                      <ul class="list-group list-group-flush today">
+                        <li class="list-group-item"><p><i class="fa fa-flag fa-fw fa-inverse circle-icon" aria-hidden="true"></i>Intake Started </p></li>
+                        <li class="list-group-item green-border"><p><i class="fa fa-tags fa-fw fa-inverse circle-icon" aria-hidden="true"></i>Verify Medicare eligibility</p></li>
+                        <li class="list-group-item red-border"><p><i class="fa fa-tags fa-fw fa-inverse circle-icon" aria-hidden="true"></i>Verify ability to provide care<span class="pull-xs-right red">NOT ASSIGNED</span></p></li>
+                      </ul>
+                      <p class="date">THU</p>
+                      <ul class="list-group list-group-flush thu">
+                        <li class="list-group-item red-border"><p><i class="fa fa-home fa-inverse fa-fw circle-icon" aria-hidden="true"></i>Start of Care Visit<span class="middle"><i class="fa fa-tag fa-fw fa-flip-horizontal" aria-hidden="true"></i>11</span><span class="pull-xs-right red">NOT SCHEDULED, ASSIGNED</span></p></li>
+                      </ul>
+                      <p class="date">FRI</p>
+                      <ul class="list-group list-group-flush fri">
+                        <li class="list-group-item"><p><i class="fa fa-tags fa-fw fa-inverse circle-icon" aria-hidden="true"></i>Admit or Decline patient</p></li>
+                        <li class="list-group-item"><p><i class="fa fa-share-alt fa-rotate-270 fa-fw circle-icon" aria-hidden="true"></i>Admit / Non-Admit Decision</p></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </section>
+              <!--recent activity section-->
+              <section class="recent-act">
+                <div class="row">
+                  <div class="card">
+                    <div class="card-block">
+                      <header>
+                        <h6>Recent Activity </h6>
+                      </header>
+                    </div>
+                    <div class="card-block content-wrapper">
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                          <p><i class="fa fa-user fa-fw fa-inverse circle-icon pull-xs-left" aria-hidden="true"></i><b>Michelle Jones</b> added a Note <span class="pull-xs-right">Today @ 3:45pm</span></p>
+                        </li>
+                        <li class="list-group-item description">
+                          <p>Sed posuere consectetur est at lobortis. Lorem ipsum dolor sit amet,
+                            consectetur adipiscing elit. Sed posuere consectetur est at lobortis. Donec id
+                            elit non mi porta gravida at eget metus. Vestibulum id ligula porta felis
+                            euismod semper. Etiam porta sem malesuada magna mollis euismod.
+                            Donec sed odio dui.
+                          </p>
+                        </li>
+                      </ul>
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                          <p><i class="fa fa-user fa-fw fa-inverse circle-icon pull-xs-left" aria-hidden="true"></i><b>Sarah Hurst</b> added a Task <span class="pull-xs-right">Today @ 1:26pm</span></p>
+                        </li>
+                        <li class="list-group-item description">
+                          <p>Sed posuere consectetur est at lobortis. Lorem ipsum dolor sit amet,
+                            consectetur adipiscing elit. Sed posuere consectetur est at lobortis. Donec id
+                            elit non mi porta gravida at eget metus. Vestibulum id ligula porta felis
+                            euismod semper. Etiam porta sem malesuada magna mollis euismod.
+                            Donec sed odio dui.
+                          </p>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </section>
+            </div>
+            <!--graphs-->
+            <aside class="col-sm-5 graphs">
+              <div class="row">
+                <div class="card">
+                  <img src="http://Chartholdr.io/line/450/250/c=6D539C" alt="graph">
+                </div>
+              </div>
+              <div class="row">
+                <div class="card">
+                  <img src="http://Chartholdr.io/line/450/250/c=E13712" alt="graph">
+                </div>
+              </div>
+              <div class="row">
+                <div class="card add">
+                  <div class="card-block">
+                    <i class="fa fa-plus" aria-hidden="true"></i>
+                    <p class="card-text">Add Tracking Metric</p>
+                  </div>
+                </div>
+              </div>
+            </aside>
+          </div><!--closes row-->
+        </div><!--closes wrapper-->
+      </main><!--closes main-->
+    </div><!--closes row-->
+  </body>
+</html>
